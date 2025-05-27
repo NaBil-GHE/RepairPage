@@ -43,8 +43,9 @@ function updateProgress() {
 // Countdown timer
 function initCountdown() {
     // Set target date (30 days from now)
-    const targetDate = new Date();
-    targetDate.setDate(targetDate.getDate() + 30);
+    //const targetDate = new Date();
+    //targetDate.setDate(targetDate.getDate() + 30);
+    const targetDate = new Date('2025-06-23T23:59:59'); // Example target date
     
     function updateCountdown() {
         const now = new Date().getTime();
