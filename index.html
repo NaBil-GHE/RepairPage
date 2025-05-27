@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نحن نعمل على تحديث جديد - We're Working on New Updates</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <!-- Logo/Icon -->
+            <div class="logo">
+                <i class="fas fa-tools"></i>
+            </div>
+            
+            <!-- Main Message -->
+            <h1 class="main-title ar">نحن نعمل على تحديث جديد</h1>
+            <h2 class="main-title en">We're Working on New Updates</h2>
+            
+            <!-- Description -->
+            <p class="description ar">
+                نقوم حالياً بتطوير وتحسين موقعنا لتقديم تجربة أفضل لكم
+                <br>
+                سنعود قريباً بميزات جديدة ومحسنة
+            </p>
+            <p class="description en">
+                We're currently developing and improving our website to provide you with a better experience
+                <br>
+                We'll be back soon with new and enhanced features
+            </p>
+            
+            <!-- Progress Bar -->
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <div class="progress-text">
+                    <span class="ar">التقدم: </span>
+                    <span class="en">Progress: </span>
+                    <span id="progressPercent">0%</span>
+                </div>
+            </div>
+            
+            <!-- Countdown Timer -->
+            <div class="countdown-container">
+                <h3 class="countdown-title ar">الوقت المتوقع للانتهاء</h3>
+                <h3 class="countdown-title en">Expected Completion Time</h3>
+                <div class="countdown" id="countdown">
+                    <div class="time-unit">
+                        <span class="number" id="days">00</span>
+                        <span class="label ar">يوم</span>
+                        <span class="label en">Days</span>
+                    </div>
+                    <div class="time-unit">
+                        <span class="number" id="hours">00</span>
+                        <span class="label ar">ساعة</span>
+                        <span class="label en">Hours</span>
+                    </div>
+                    <div class="time-unit">
+                        <span class="number" id="minutes">00</span>
+                        <span class="label ar">دقيقة</span>
+                        <span class="label en">Minutes</span>
+                    </div>
+                    <div class="time-unit">
+                        <span class="number" id="seconds">00</span>
+                        <span class="label ar">ثانية</span>
+                        <span class="label en">Seconds</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Contact Information -->
+            <div class="contact-info">
+                <h3 class="contact-title ar">للاستفسارات تواصل معنا</h3>
+                <h3 class="contact-title en">For Inquiries Contact Us</h3>
+                <div class="contact-links">
+                    <a href="mailto:info@repairpage.com" class="contact-link">
+                        <i class="fas fa-envelope"></i>
+                        <span>info@repairpage.com</span>
+                    </a>
+                    <a href="tel:+1234567890" class="contact-link">
+                        <i class="fas fa-phone"></i>
+                        <span>+1 (234) 567-890</span>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Language Toggle -->
+            <div class="language-toggle">
+                <button id="langToggle" class="lang-btn">
+                    <i class="fas fa-globe"></i>
+                    <span id="langText">English</span>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Background Animation -->
+        <div class="background-animation">
+            <div class="gear gear1"><i class="fas fa-cog"></i></div>
+            <div class="gear gear2"><i class="fas fa-cog"></i></div>
+            <div class="gear gear3"><i class="fas fa-cog"></i></div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
